@@ -10,7 +10,12 @@ $this->title = 'My Yii Application';
         <h1>Congratulations!</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
+        
+        <p class="lead"><?php Yii::$app->mycomponent->welcome(); ?></p>
 
+        <p class="lead"><?php Yii::$app->utilities->num2letters(1259.71, 'Pesos', 'Centavos'); ?></p>
+
+        
         <p><a class="btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>
 

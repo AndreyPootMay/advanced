@@ -18,6 +18,12 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],
+        'mycomponent' => [
+            'class' => 'frontend\components\MyComponent',
+        ],
+        'utilities' => [
+            'class' => 'frontend\components\Utilities',
+        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
